@@ -7,18 +7,24 @@
 
     <ImageView
         android:id="@+id/imagem"
-        android:layout_weight="1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:scaleType="centerCrop"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:padding="8dp"
+        android:layout_height="80dp">
 
         <TextView
+            android:id="@+id/nome"
+            android:text="aqui vai o título do lugar"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/textAccent2"
+            android:gravity="center_vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="match_parent" />
 
     </LinearLayout>
 
