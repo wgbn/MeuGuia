@@ -15,6 +15,9 @@ import java.util.ArrayList;
 import br.com.wgbn.meuguia.Models.Lugar;
 import br.com.wgbn.meuguia.R;
 
+/**
+ * Adapter para a ListView de lugares
+ */
 public class LugaresAdapter extends ArrayAdapter<Lugar> {
 
     private final Context context;
